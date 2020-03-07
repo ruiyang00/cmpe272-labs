@@ -9,9 +9,9 @@ require "header.php"
 $contacts = file('contacts.txt');
 
 echo '<table>';
-for ($i = 0; $i < count($contacts); $i++) {
+foreach ($contacts as $info) {
     echo '<tr>';
-    echo "<td>{$contacts[$i]}</td>";
+    echo "<td>{$info}</td>";
     // echo "<td>{$var['category'][$i]}</td>";
     echo '</tr>';
 }
