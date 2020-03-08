@@ -23,7 +23,7 @@ if (isset($_SESSION['user_Name'])) {
 
     echo '
     <li><a href="upload_page.php">Secret</a></li>
-        <li class="topnav-right"><a href="./server/authenticateLogout.php"> Log Out</a></li>
+        <li class="topnav-right"><a href="logout.php"> Log Out</a></li>
     ';
 } else {
 
