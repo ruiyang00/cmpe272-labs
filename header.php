@@ -22,7 +22,7 @@ session_start();
 if (isset($_SESSION['user_Name'])) {
 
     echo '
-    <li><a href="upload_page.php">K-means</a></li>
+    <li><a href="upload_page.php">Secret</a></li>
         <li class="topnav-right"><a href="./server/authenticateLogout.php"> Log Out</a></li>
     ';
 } else {
