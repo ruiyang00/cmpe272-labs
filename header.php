@@ -33,8 +33,7 @@ if (isset($_SESSION['user_Name'])) {
                     <li class="topnav-left"><a href="service.php"> Services</a></li>
                     <li class="topnav-left"><a href="news.php"> News</a></li>
                     <li class="topnav-left"><a href="contacts.php"> Contacts</a></li>
-                    <li class="topnav-right"><a href="signup.php"> Sign up</a></li>
-                    <li class="topnav-right"><a href="signin.php"> Sign In</a></li>'
+                    <li class="topnav-right"><a href="login.php"> Login</a></li>'
     ;
 }
 ?>

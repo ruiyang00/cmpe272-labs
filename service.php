@@ -2,7 +2,7 @@
 require "header.php"
 ?>
 
-<main>
+<main></main>
     <h1>
     this is SERVICE page which is under development....
     </h1>
