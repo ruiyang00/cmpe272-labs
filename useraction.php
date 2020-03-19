@@ -106,9 +106,9 @@ function createUser($fn, $ln, $em, $hadd, $hp, $cp)
     //cmpe272-pswd10
     $hn = "localhost";
     $un = "root";
-    $pw = "";
+    $pw = "cmpe272-110";
     $db = "cmpe272";
-    $conn = new mysqli($hn, $un, $db);
+    $conn = new mysqli($hn, $un, $pw, $db);
 
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
