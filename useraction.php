@@ -114,7 +114,7 @@ function createUser($fn, $ln, $em, $hadd, $hp, $cp)
     $result = $conn->query($query);
 
     if (!$result) {
-        echo "INSERT failed: $query<br>" . $connection->error . "<br><br>";
+        echo "INSERT failed: $query<br>" . $conn->error . "<br><br>";
     } else {
         echo "new user creation successed, please use query button to query for specific user info";
     }
