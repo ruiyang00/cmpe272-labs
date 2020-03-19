@@ -106,9 +106,13 @@ function createUser($fn, $ln, $em, $hadd, $hp, $cp)
     //cmpe272-pswd10
     $hn = "localhost";
     $un = "root";
-    $pw = "cmpe272-110";
+    $pw = "";
     $db = "cmpe272";
-    $conn = new mysqli($hn, $un, $pw, $db);
+    $conn = new mysqli($hn, $un, $db);
+
+    if ($conn->connect_error) {
+        die("Connection failed: " . $conn->connect_error);
+    }
 
     $query = "INSERT INTO users (fn, ln, email, haddress, hphone, cphone) VALUES ('$fn', '$ln', '$em', '$hadd', '$hp', '$cp')";
     $result = $conn->query($query);
