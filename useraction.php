@@ -105,7 +105,7 @@ function createUser($fn, $ln, $em, $hadd, $hp, $cp)
 {
     $hn = "localhost";
     $un = "root";
-    $pw = "";
+    $pw = "ps110";
     $db = "cmpe272";
     $conn = new mysqli($hn, $un, $pw, $db);
 
