@@ -105,8 +105,8 @@ function createUser($fn, $ln, $em, $hadd, $hp, $cp)
 {
     //cmpe272-pswd10
     $hn = "localhost";
-    $un = "root";
-    $pw = "cmpe272-110";
+    $un = "cmpe272user";
+    $pw = "cmpe272af!";
     $db = "cmpe272";
     $conn = new mysqli($hn, $un, $pw, $db);
 
