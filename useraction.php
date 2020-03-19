@@ -103,9 +103,10 @@ function queryDB($input, $searchbytype)
 
 function createUser($fn, $ln, $em, $hadd, $hp, $cp)
 {
+    //cmpe272-pswd10
     $hn = "localhost";
     $un = "root";
-    $pw = "ps110";
+    $pw = "cmpe272-110";
     $db = "cmpe272";
     $conn = new mysqli($hn, $un, $pw, $db);
 
