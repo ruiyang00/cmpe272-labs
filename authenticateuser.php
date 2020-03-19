@@ -23,7 +23,6 @@ require "header.php"
             header('Location:index.php');
 
         }
-
 }
 
 ?>

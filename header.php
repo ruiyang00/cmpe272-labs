@@ -19,23 +19,23 @@ session_start();
             <ul class="topnav">
             <li><a href="index.php">Athena</a></li>
             <?php
-if (isset($_SESSION['user_Name'])) {
+                if (isset($_SESSION['user_Name'])) {
 
-    echo '
-    <li><a href="upload_page.php">Secret</a></li>
-        <li class="topnav-right"><a href="logout.php"> Log Out</a></li>
-    ';
-} else {
+                    echo '
+                    <li><a href="useraction.php">User</a></li>
+                        <li class="topnav-right"><a href="logout.php"> Log Out</a></li>
+                    ';
+                } else {
 
-    echo '
-                    <li class="topnav-left"><a href="index.php"> Home</a></li>
-                    <li class="topnav-left"><a href="about.php"> About</a></li>
-                    <li class="topnav-left"><a href="service.php"> Services</a></li>
-                    <li class="topnav-left"><a href="news.php"> News</a></li>
-                    <li class="topnav-left"><a href="contacts.php"> Contacts</a></li>
-                    <li class="topnav-right"><a href="login.php"> Login</a></li>'
-    ;
-}
+                    echo '
+                                    <li class="topnav-left"><a href="index.php"> Home</a></li>
+                                    <li class="topnav-left"><a href="about.php"> About</a></li>
+                                    <li class="topnav-left"><a href="service.php"> Services</a></li>
+                                    <li class="topnav-left"><a href="news.php"> News</a></li>
+                                    <li class="topnav-left"><a href="contacts.php"> Contacts</a></li>
+                                    <li class="topnav-right"><a href="login.php"> Login</a></li>'
+                    ;
+                }
 ?>
 
 
