@@ -88,8 +88,8 @@ function queryDB($input, $searchbytype)
 {
 
     $hn = "localhost";
-    $un = "root";
-    $pw = "";
+    $un = "cmpe272user";
+    $pw = "cmpe272af!";
     $db = "cmpe272";
     $conn = new mysqli($hn, $un, $pw, $db);
     // $query = "SELECT * FROM users";
