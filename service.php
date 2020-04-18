@@ -23,7 +23,7 @@ function button2()
     <body>
                     <div class= "row">
                         <div class="lastFive" style="text-align:center;">
-                            <button onclick="window.location.href = 'http://192.168.64.2/cmpe272-labs/lastfivevisited.php';">Last five visited products</button>
+                            <button onclick="window.location.href = 'www.ruiyang.info/lastfivevisited.php';">Last five visited products</button>
                         </div>
                     </div>
 
@@ -41,7 +41,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 cassandra servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/cassandra.php">
+                                <form method="post" action="./cassandra.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
@@ -62,7 +62,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 scylla servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/scylla.php">
+                                <form method="post" action="./scylla.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
@@ -82,7 +82,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 tidb servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/tidb.php">
+                                <form method="post" action="./tidb.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
@@ -107,7 +107,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 redis servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/redis.php">
+                                <form method="post" action="./redis.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
@@ -130,7 +130,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 dynamoDB servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/dynamoDB.php">
+                                <form method="post" action="./dynamoDB.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
@@ -150,7 +150,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 mongodb servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/mongodb.php">
+                                <form method="post" action="./mongodb.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
@@ -169,7 +169,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 mysql servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/mysql.php">
+                                <form method="post" action="./mysql.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
@@ -188,7 +188,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 mariaDB servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/mariaDB.php">
+                                <form method="post" action="./mariaDB.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
@@ -206,7 +206,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 sqlite servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/sqlite.php">
+                                <form method="post" action="./sqlite.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
@@ -226,7 +226,7 @@ function button2()
                             <div class = "describution">
                                 <p>10 postgresql servers in a clusetr</p>
 
-                                <form method="post" action="http://192.168.64.2/cmpe272-labs/postgresql.php">
+                                <form method="post" action="./postgresql.php">
                                         <input type="submit" name="button1"
                                                 class="button" value="Visit Item" />
                                 </form>
