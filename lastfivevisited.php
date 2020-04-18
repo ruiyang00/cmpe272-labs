@@ -9,7 +9,7 @@ require "header.php"
         </h1>
         
         
-        <div class="items" align='center' >
+        <div class="items"  >
             <?php
                 if(!isset($_COOKIE['lastFiveVisitedItem'])){
                                       
