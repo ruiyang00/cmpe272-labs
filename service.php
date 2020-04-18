@@ -23,7 +23,7 @@ function button2()
     <body>
                     <div class= "row">
                         <div class="lastFive" style="text-align:center;">
-                            <button onclick="window.location.href = 'www.ruiyang.info/lastfivevisited.php';">Last five visited products</button>
+                            <button onclick="window.location.href = 'lastfivevisited.php';">Last five visited products</button>
                         </div>
                     </div>
 
