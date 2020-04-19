@@ -15,32 +15,33 @@ require "header.php";
         // $query = "SELECT * FROM users";
         $query = "SELECT * FROM users";
         $query_res = mysqli_query($conn, $query);
-
-        print_r($query_res);
         
-        // while($user = $result -> fetch_assoc()){
-        //     echo "<tr>";
-        //         echo "<td>";
-        //             echo $row["fn"];
-        //         echo "</td>";
-        //         echo "<td>";
-        //             echo $row["ln"];
-        //         echo "</td>";
-        //         echo "<td>";
-        //             echo $row["email"];
-        //         echo "</td>";
-        //         echo "<td>";
-        //             echo $row["haddress"];
-        //         echo "</td>";
-        //         echo "<td>";
-        //             echo $row["hphone"];
-        //         echo "</td>";
-        //         echo "<td>";
-        //             echo $row["cphone"];
-        //         echo "</td>";
-        //     echo "</tr>";
+
+        // print_r($query_res);
+        
+        while($user = $$query_res -> fetch_assoc()){
+            echo "<tr>";
+                echo "<td>";
+                    echo $user["fn"];
+                echo "</td>";
+                echo "<td>";
+                    echo $user["ln"];
+                echo "</td>";
+                echo "<td>";
+                    echo $user["email"];
+                echo "</td>";
+                echo "<td>";
+                    echo $user["haddress"];
+                echo "</td>";
+                echo "<td>";
+                    echo $user["hphone"];
+                echo "</td>";
+                echo "<td>";
+                    echo $user["cphone"];
+                echo "</td>";
+            echo "</tr>";
     
-        // }
+        }
     ?>
     </p>
 <body>
