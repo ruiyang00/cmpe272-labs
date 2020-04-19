@@ -6,6 +6,14 @@ require "header.php";
 <body>
 
     <table>
+        <tr>
+            <td class="tableheader"><string>First Name</strong></td>
+            <td class="tableheader"><string>Last Name</strong></td>
+            <td class="tableheader"><string>Email</strong></td>
+            <td class="tableheader"><string>Home Address</strong></td>
+            <td class="tableheader"><string>Home Phone</strong></td>
+            <td class="tableheader"><string>Cell Phone</strong></td>
+        </td>
     <?php
         $hn = "localhost";
         $un = "cmpe272user";
