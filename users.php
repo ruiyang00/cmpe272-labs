@@ -14,10 +14,8 @@ require "header.php";
         $conn = new mysqli($hn, $un, $pw, $db);
         // $query = "SELECT * FROM users";
         $query = "SELECT * FROM users";
-        $db_query = mysqli_query($conn, $query);
-        $user = $db_query -> fetch_assoc();
+        $result = mysqli_query($conn, $query);
 
-        print_r($user);
         
         while($user = $result -> fetch_assoc()){
             echo "<tr>";
