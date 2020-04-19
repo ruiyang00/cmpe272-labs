@@ -14,6 +14,8 @@ $conn->close();
 ?>
 
 <body>
+
+    <p>
     <?php
         echo '<table>';
         foreach ($result as $user) {
@@ -24,6 +26,7 @@ $conn->close();
         }
         echo '</table>';
     ?>
+    </p>
 <body>
 
 
