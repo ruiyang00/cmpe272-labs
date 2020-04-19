@@ -16,7 +16,13 @@ require "header.php";
         $query = "SELECT * FROM users";
         $db_query = mysqli_query($conn, $query);
         $user = $result -> fetch_assoc();
-        print_r($user);
+
+        if(!$user) {
+            echo "not connect";
+        }else {
+            echo "you are nice!!!";
+        }
+        // print_r($user);
         
         // while($user = $result -> fetch_assoc()){
         //     echo "<tr>";
