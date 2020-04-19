@@ -21,16 +21,16 @@ require "header.php";
             echo "no such user sorry! please make another query";
         } else {
 
-            print_r($result);
-            // echo '<table>';
-            // foreach ($result as $user) {
-            //     echo '<tr>';
-            //     echo "<td>{$user}</td>";
+            // print_r($result);
+             echo '<table>';
+             foreach ($result as $user) {
+                 echo '<tr>';
+                 echo "<td>{$user}</td>";
 
-            //     echo '</tr>';
+                 echo '</tr>';
             }
-            // echo '</table>';
-
+             echo '</table>';
+        }
     ?>
     </p>
 <body>
