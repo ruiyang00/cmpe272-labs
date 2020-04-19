@@ -5,7 +5,7 @@ require "header.php";
 
 <body>
 
-    <p>
+    <table>
     <?php
         $hn = "localhost";
         $un = "cmpe272user";
@@ -43,7 +43,7 @@ require "header.php";
     
         }
     ?>
-    </p>
+    </table>
 <body>
 
 
