@@ -19,7 +19,7 @@ require "header.php";
 
         // print_r($query_res);
         
-        while($user = $$query_res -> fetch_assoc()){
+        while($user = $query_res -> fetch_assoc()){
             echo "<tr>";
                 echo "<td>";
                     echo $user["fn"];
