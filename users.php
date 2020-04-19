@@ -13,9 +13,8 @@ require "header.php";
         $db = "cmpe272";
         $conn = new mysqli($hn, $un, $pw, $db);
         // $query = "SELECT * FROM users";
-        $query = "SELECT * FROM users WHERE $searchbytype ='$input' ";
+        $query = "SELECT * FROM users";
         $db_query = mysqli_query($conn, $query);
-        echo($db_query);
         $result = mysqli_fetch_assoc($db_query);
         $conn->close();
         if (empty($result)) {
