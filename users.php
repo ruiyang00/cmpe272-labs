@@ -15,16 +15,29 @@ require "header.php";
         // $query = "SELECT * FROM users";
         $query = "SELECT * FROM users";
         $db_query = mysqli_query($conn, $query);
-        $result = fetch_assoc($db_query);
-        $conn->close();
-        if (empty($result)) {
-            echo "no such user sorry! please make another query";
-        } else {
-
-            print_r($result[0]);
-            
-            
-             
+        
+        while($user = $result -> fetch_assoc($db_query)){
+            echo "<tr>";
+                echo "<td>";
+                    echo $row["fn"];
+                echo "</td>";
+                echo "<td>";
+                    echo $row["ln"];
+                echo "</td>";
+                echo "<td>";
+                    echo $row["email"];
+                echo "</td>";
+                echo "<td>";
+                    echo $row["haddress"];
+                echo "</td>";
+                echo "<td>";
+                    echo $row["hphone"];
+                echo "</td>";
+                echo "<td>";
+                    echo $row["cphone"];
+                echo "</td>";
+            echo "</tr>";
+    
         }
     ?>
     </p>
