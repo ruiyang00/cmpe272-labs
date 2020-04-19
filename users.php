@@ -7,12 +7,12 @@ require "header.php";
 
     <table>
         <tr>
-            <td class="tableheader"><string>First Name</strong></td>
-            <td class="tableheader"><string>Last Name</strong></td>
-            <td class="tableheader"><string>Email</strong></td>
-            <td class="tableheader"><string>Home Address</strong></td>
-            <td class="tableheader"><string>Home Phone</strong></td>
-            <td class="tableheader"><string>Cell Phone</strong></td>
+            <td class="tableheader"><strong>First Name</strong></td>
+            <td class="tableheader"><strong>Last Name</strong></td>
+            <td class="tableheader"><strong>Email</strong></td>
+            <td class="tableheader"><strong>Home Address</strong></td>
+            <td class="tableheader"><strong>Home Phone</strong></td>
+            <td class="tableheader"><strong>Cell Phone</strong></td>
         </td>
     <?php
         $hn = "localhost";
