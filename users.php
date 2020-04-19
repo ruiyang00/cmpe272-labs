@@ -15,7 +15,7 @@ require "header.php";
         // $query = "SELECT * FROM users";
         $query = "SELECT * FROM users";
         $db_query = mysqli_query($conn, $query);
-        $result = mysqli_fetch_all($db_query);
+        $result = fetch_assoc($db_query);
         $conn->close();
         if (empty($result)) {
             echo "no such user sorry! please make another query";
