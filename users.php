@@ -15,6 +15,7 @@ require "header.php";
         // $query = "SELECT * FROM users";
         $query = "SELECT * FROM users WHERE $searchbytype ='$input' ";
         $db_query = mysqli_query($conn, $query);
+        echo '$db_query ';
         $result = mysqli_fetch_assoc($db_query);
         $conn->close();
         if (empty($result)) {
