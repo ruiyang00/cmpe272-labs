@@ -17,14 +17,18 @@ require "header.php";
         $db_query = mysqli_query($conn, $query);
         $result = mysqli_fetch_assoc($db_query);
         $conn->close();
-        echo '<table>';
-        foreach ($result as $user) {
-            echo '<tr>';
-            echo "<td>{$user}</td>";
-            // echo "<td>{$var['category'][$i]}</td>";
-            echo '</tr>';
+        if (empty($result)) {
+            echo "no such user sorry! please make another query";
+        } else {
+            echo '<table>';
+            foreach ($result as $user) {
+                echo '<tr>';
+                echo "<td>{$user}</td>";
+                // echo "<td>{$var['category'][$i]}</td>";
+                echo '</tr>';
+            }
+            echo '</table>';
         }
-        echo '</table>';
     ?>
     </p>
 <body>
