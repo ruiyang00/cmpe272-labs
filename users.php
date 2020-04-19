@@ -16,7 +16,7 @@ require "header.php";
         $query = "SELECT * FROM users";
         $db_query = mysqli_query($conn, $query);
         
-        while($user = $result -> fetch_assoc($db_query)){
+        while($user = $result -> fetch_assoc()){
             echo "<tr>";
                 echo "<td>";
                     echo $row["fn"];
