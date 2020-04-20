@@ -1,5 +1,21 @@
+
 <?php
-require "header.php";
+    include "users.php";
+?>
+<h1>
+    Belos are the users from this own company's database ruiyang90.info
+</h1>
+<br>
+
+
+
+<h1>
+    Below are users from weichao420.info using PHP CURL
+</h1>
+<br>
+
+
+<?php
 // create a new cURL resource
 /**
  * Initialize the cURL session
@@ -16,26 +32,26 @@ curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
 /**
  * Create a new file
  */
-// $fp = fopen("data.txt", "w");
+$fp = fopen("data.txt", "w");
 
 /**
  * Execute the cURL session
  */
 $output = curl_exec($ch);
 
-$data = strip_tags_content($output, "<header>", true);
-$data = strip_tags_content($data, "<head>", true);
-
-
+$data = strip_tags_content($output, "<head><header><body>", true);
+$data = strip_tags($data, "<table><tr><td><strong>");
+// $data = strip_tags_content($data, "<head><header>", true);
 
 echo ($data);
-// fwrite($fp, $data);
+
+fwrite($fp, $data);
 
 /**
  * Close cURL session and file
  */
 curl_close($ch);
-// fclose($fp);
+fclose($fp);
 
 function strip_tags_content($text, $tags = '', $invert = false)
 {
@@ -55,6 +71,3 @@ function strip_tags_content($text, $tags = '', $invert = false)
     return $text;
 }
 ?>
-
-
-

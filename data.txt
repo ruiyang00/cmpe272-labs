@@ -1,20 +1,13 @@
 
-<!DOCTYPE html>
-<html lang="en">
 
 
 
-<body>
-    
-    <text>
-    </text>
 
 
 
-</body>
 
-</html><section class="main-section alabaster" id="users">
-	<div class="container fullsize">
+
+	
     <table  >
         <tr>
             
@@ -27,8 +20,7 @@
             
         </tr>
         <tr><td>Jamie</td><td>Foxx</td><td>jamf@gmail.com</td><td>1010 queen, Colorados Dr, la</td><td>911911911911</td><td>911911911911</td></tr><tr><td>ding</td><td>ding</td><td>didi</td><td></td><td></td><td></td></tr><tr><td>welcom</td><td>becom</td><td>welcom@gmail</td><td></td><td></td><td></td></tr><tr><td>WEICH</td><td>LIA</td><td>WEICHAOLEUNG@GMAIL.COM</td><td>74PFINO PL</td><td>1628850</td><td>8777339</td></tr><tr><td>chO</td><td>FAN</td><td>CHFAN@GMAIL.COM</td><td>888COMPLE,ASS,CA</td><td>8999330</td><td>888822</td></tr><tr><td>OUR </td><td>dhuuu</td><td>ourdhuuu@emll</td><td>huudii</td><td>800800800</td><td>800800800</td></tr><tr><td>aooo</td><td>siiiihe</td><td>soosiii@gmail</td><td>800098</td><td>90033882</td><td>999900</td></tr><tr><td>super</td><td>man</td><td>superm@gmail.com</td><td>299 Ito, LA</td><td>19129123123</td><td>19129123123</td></tr><tr><td>banana</td><td>LEAF</td><td>BANANALEAF@GMAIL.COM</td><td>2998KKK OD</td><td>80999330</td><td>888830002</td></tr><tr><td>spider</td><td>man</td><td>spiderman@gmail.com</td><td>110 New City, earth</td><td>4158251123</td><td>4158251123</td></tr><tr><td>Captain</td><td>America</td><td>capamerica@gmail.com</td><td>110 New York, USA</td><td>1232141</td><td>1232141</td></tr><tr><td>Iron</td><td>Man</td><td>ironM@gmail.com</td><td>1230 New York, USA</td><td>123124213</td><td>123124213</td></tr><tr><td>Hulk</td><td>Mr</td><td>hulkmr@gmail.com</td><td>1234 San jose, USA</td><td>1232352342</td><td>1232352342</td></tr><tr><td>zhou</td><td>jinhan</td><td>jinhandasha@gmail.com</td><td>588 protofino</td><td>70002999</td><td>79977773333</td></tr><tr><td>visual</td><td>studio</td><td>vs@gamil.com</td><td>7999e OIIISD</td><td>70099333</td><td>9888880333</td></tr><tr><td>hu</td><td>jinxuan</td><td>hujin</td><td>8999 hujin</td><td>7999933</td><td></td></tr><tr><td>run</td><td>direct</td><td>rundirect@gmail.com</td><td>7999e OIIISD</td><td>799997772</td><td>6888888555</td></tr><tr><td>tracy</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>yuan</td><td>wan</td><td>yuanwan@gmail.com</td><td>779999</td><td>777770</td><td>33330030303</td></tr><tr><td>edison</td><td>pong</td><td>edisonpong@gmail.com</td><td>89993993</td><td>888833333</td><td>888766662626</td></tr><tr><td>abhi</td><td>bala</td><td>aaa@abc.com</td><td>111,aaa</td><td>1234567890</td><td>1234567890</td></tr>            </table>
-    <br/>
-    <br/>
     
-        </div>
-</section>
+    
+    
+        
