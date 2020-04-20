@@ -6,7 +6,7 @@ require "header.php";
 <body>
 
 <h1>
-    Belos are the users from this own company's database ruiyang90.info
+    Below are the users from this own company's database ruiyang90.info
 </h1>
 
     <table>
