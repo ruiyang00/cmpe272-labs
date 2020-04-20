@@ -2,16 +2,7 @@
 <?php
     include "users.php";
 ?>
-<h1>
-    Belos are the users from this own company's database ruiyang90.info
-</h1>
 <br>
-
-
-
-<h1>
-    Below are users from weichao420.info using PHP CURL
-</h1>
 <br>
 
 
