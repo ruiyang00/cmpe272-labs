@@ -4,11 +4,6 @@ require "header.php";
 ?>
 
 <body>
-
-<h1>
-    Belos are the users from this own company's database ruiyang90.info
-</h1>
-
     <table>
         <tr>
             <td class="tableheader"><strong>First Name</strong></td>
